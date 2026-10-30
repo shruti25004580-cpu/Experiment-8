@@ -1,0 +1,15 @@
+Aim: implement re module in python
+
+
+Algorithm:
+
+1. Start.
+2. Import the `re` module.
+3. Accept a date from the user and check its format using `re.fullmatch()`.
+4. Display a valid or invalid date message based on the result.
+5. Accept an email ID or mobile number from the user.
+6. Define regular expression patterns for email IDs and 10-digit mobile numbers.
+7. Check the input against the email pattern and display the appropriate message.
+8. If it does not match the email pattern, check the mobile number pattern and display the corresponding message.
+9. If neither pattern matches, display an invalid input message.
+10. Stop.
